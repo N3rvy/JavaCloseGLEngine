@@ -26,7 +26,7 @@ public class MainGameLoop {
 	private static final float DAYTIME = 0.4f;
 	
 	public static void main(String[] args) {
-		YESEngine engine = new YESEngine(1280, 720, 20000);
+		YESEngine engine = new YESEngine(1280, 720, 60);
 		
 		//******************** Map ****************************
 		GameMap map = MapLoader.loadMap("map1", engine.getLoader());

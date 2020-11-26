@@ -16,19 +16,10 @@
       <sourceFolder url="file://$MODULE_DIR$/engine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="lwjgl_util.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jars/lwjgl_util.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="lwjgl.jar">
+      <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/jars/lwjgl.jar!/" />
         </CLASSES>
@@ -37,7 +28,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="slick-util.jar">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jars/lwjgl_util.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/jars/slick-util.jar!/" />
         </CLASSES>
